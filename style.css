@@ -1,0 +1,227 @@
+body {
+    font-family: Spicy Rum !important;
+    background-color: white;
+    color: white !important;
+}
+
+.nav-pills {
+    font-size: 1.7em;
+    background-color: black;
+    margin-bottom: 10% !important;
+}
+
+h1 {
+    padding: 0;
+    margin-top: 0px !important;
+    font-size: 5.0em !important;
+    padding-top: 0%;
+}
+
+.paddingTop {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.paddingBTN {
+    padding-top: 25%;
+    padding-bottom: 25%;
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+.footer {
+    background-color: black;
+    height: 100px;
+    margin-top: 300px;
+}
+
+.block {
+    background-color: black;
+    opacity: .8;
+    padding: 10px 10px 10px 10px;
+    margin-top: 200px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+
+}
+
+.btn-default {
+    background-color: black !important;
+    border-color: black !important;
+    color: #337ab7 !important;
+    font-size: 1.7em;
+}
+
+.btnList {
+    margin-top: 10px;
+}
+
+.pageOne {
+    background: url("https://images.unsplash.com/photo-1491466424936-e304919aada7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3a1dbe60cc683c7f288b9ca08335e53f&auto=format&fit=crop&w=auto&q=80");
+    background-size: cover;
+    height: 800px;
+    background-position-x: center;
+    background-position-y: 50%;
+}
+
+.pageTwo {
+    background: url("https://images.unsplash.com/photo-1523057530100-383d7fbc77a1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjIxMTIzfQ&s=7a7a8f936d85b2e56f90f215dc8b6170&auto=format&fit=crop&w=auto&q=80");
+    background-size: cover;
+    height: 800px;
+    padding-top: 5%;
+    background-position-x: center;
+}
+
+#projectName {
+    color: white;
+}
+
+.pageThree {
+    background: url("https://images.unsplash.com/photo-1472419551702-dc4862cad8f9?ixlib=rb-0.3.5&s=e1c2933693714bc2cc1ea4e266a1fe60&auto=format&fit=crop&w=auto&q=80");
+    background-size: cover;
+    height: 1000px;
+    background-position-x: center;
+}
+
+.pageFour {
+    background: url("https://images.unsplash.com/photo-1532972056642-31309b6708c4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3a6821092770877f7047e4f205ae2724&auto=format&fit=crop&w=634&q=80");
+    background-size: cover;
+    height: 800px;
+    background-position-x: center;
+}
+
+#ArcadeGame {
+    height: 300px;
+    width: 300px;
+    padding:0;
+}
+
+#ravenousImage {
+    height: 300px;
+    padding: 0;
+}
+
+p {
+    font-size: 2.2em;
+}
+
+#me {
+    height: 300px;
+    margin-top: 5%;
+    border-radius: 50%;
+}
+
+#githubIcon {
+    color: rgb(102, 43, 129);
+}
+
+#linkedinIcon {
+    color: rgb(0, 124, 181);
+}
+
+#codepenIcon {
+    color: white;
+}
+
+.contactMe {
+    margin-top: 250px;
+}
+
+.contactBtn {
+    margin-top: 250px;
+}
+
+.btn.btn-default.paddingBTN {
+    background-color: rgb(187, 77, 26) !important;
+    margin: 5px;
+    border-radius: 20px;
+    color: black !important;
+}
+
+.statement4 {
+    font-size: 1em !important;
+}
+
+@media only screen and (max-width: 430px) {
+    .pageOne, .pageTwo, .pageThree, .pageFour {
+        width: 410px;
+    }
+
+    .nav-pills {
+        font-size: 1em;
+        padding-right: 5px;
+    }
+
+    .name {
+        font-size: 3em !important;
+    }
+
+    .statement {
+        font-size: 1em;
+    }
+
+    .block {
+        margin-top: 100px;
+    }
+
+    .name2 {
+        font-size: 4em !important;
+        margin-top: 20px;
+    }
+
+    .statement2 {
+        font-size: 1.1em;
+        width: 360px;
+        margin-left: 5px;
+        padding-left: 1s5px;
+    }
+
+    #me {
+        height: 200px;
+    }
+
+    .name3 {
+        font-size: 3em !important;
+        padding-right: 10px;
+    }
+
+    .statement3 {
+        font-size: 2em;
+    }
+
+    #ArcadeGame, #ravenousImage {
+        height: 200px;
+        width: 200px;
+    }
+
+    .name4 {
+        font-size: 3em !important;
+    }
+
+    #email {
+        font-size: .5em !important;
+        color: rgb(219, 180, 180);
+    }
+
+    .contactBtn {
+        margin-top: 200px;
+    }
+
+    .footer {
+        width: 410px;
+        margin-top: 0;
+        height: 60px;
+        margin-top: 80px;
+    }
+
+    .name5 {
+        font-size: 1.2em !important;
+    }
+
+    .statement4 {
+        font-size: 1em !important;
+        margin-bottom: 2px;
+    }
+}
