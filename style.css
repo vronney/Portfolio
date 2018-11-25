@@ -103,6 +103,12 @@ h1 {
     padding: 0;
 }
 
+#reactCoinImage {
+    height: 300px;
+    width: 300px;
+    padding: 0;
+}
+
 p {
     font-size: 2.2em;
 }
@@ -191,7 +197,7 @@ p {
         font-size: 2em;
     }
 
-    #ArcadeGame, #ravenousImage {
+    #ArcadeGame, #ravenousImage, #reactCoinImage {
         height: 200px;
         width: 200px;
     }
