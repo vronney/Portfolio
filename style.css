@@ -4,17 +4,25 @@ body {
     color: white !important;
 }
 
+#navbar {
+    position: fixed;
+}
+
 .nav-pills {
     font-size: 1.7em;
     background-color: black;
     margin-bottom: 10% !important;
 }
 
+#welcome-section {
+    max-height: 100vh;
+}
+
 h1 {
     padding: 0;
     margin-top: 0px !important;
-    font-size: 5.0em !important;
-    padding-top: 0%;
+    font-size: 4.0em !important;
+    padding-top: 0;
 }
 
 .paddingTop {
@@ -39,11 +47,12 @@ h1 {
     background-color: black;
     opacity: .8;
     padding: 10px 10px 10px 10px;
-    margin-top: 200px;
-    width: 50%;
+    margin-top: 100px;
+    width: 200px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 10px;
+    width: 635px;
 
 }
 
@@ -95,7 +104,7 @@ h1 {
 #ArcadeGame {
     height: 300px;
     width: 300px;
-    padding:0;
+    padding: 0;
 }
 
 #ravenousImage {
@@ -151,7 +160,11 @@ p {
 }
 
 @media only screen and (max-width: 430px) {
-    .pageOne, .pageTwo, .pageThree, .pageFour {
+
+    .pageOne,
+    .pageTwo,
+    .pageThree,
+    .pageFour {
         width: 410px;
     }
 
@@ -170,6 +183,7 @@ p {
 
     .block {
         margin-top: 100px;
+        width: 185px;
     }
 
     .name2 {
@@ -197,7 +211,9 @@ p {
         font-size: 2em;
     }
 
-    #ArcadeGame, #ravenousImage, #reactCoinImage {
+    #ArcadeGame,
+    #ravenousImage,
+    #reactCoinImage {
         height: 200px;
         width: 200px;
     }
@@ -229,5 +245,11 @@ p {
     .statement4 {
         font-size: 1em !important;
         margin-bottom: 2px;
+    }
+}
+
+@media (min-width: @screen-sm-min) {
+    .nav-header {
+        float: none;
     }
 }

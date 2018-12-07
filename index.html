@@ -16,32 +16,40 @@
 </header>
 
 <body>
-    <div class="pageOne text-center">
-        <ul class="nav nav-pills">
-            <li>
-                <a class="ronVargas" href="#">Ron Vargas</a>
-            </li>
-            <li class="pull-right">
-                <a href="#p2">About Me</a>
-            </li>
-            <li class="pull-right">
-                <a href="#p3">Portfolio</a>
-            </li>
-            <li class="pull-right">
-                <a href="#p4">Contact Me</a>
-            </li>
-        </ul>
-        <div class="block text-center">
-            <h1 class="name">Ron Vargas</h1>
-            <h3 class="statement">You must be willing to do the things today others won't do to have the things you want.</h3>
-        </div>
-        <div class="btnList text-center">
-            <a class="btn btn-default" href="https://github.com/vronney" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-lg" id="githubIcon"
-                    aria-hidden="true"></i> GitHub</a>
-            <a class="btn btn-default" href="https://www.linkedin.com/in/ronney-vargas/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin-square fa-lg"
-                    id="linkedinIcon" aria-hidden="true"></i> LinkedIn</a>
-            <a class="btn btn-default" href="https://codepen.io/vronney/" target="_blank" rel="noopener noreferrer"><i class="fa fa-codepen fa-lg" id="codepenIcon"
-                    aria-hidden="true"></i> CodePen</a>
+    <div id="welcome-section">
+        <div class="pageOne text-center">
+            <div class="nav-header">
+                <nav id="navbar" class="navbar navbar-fixed-top">
+                    <ul class="nav nav-pills">
+                        <li>
+                            <a class="ronVargas" href="#">Ron Vargas</a>
+                        </li>
+                        <li class="pull-right">
+                            <a href="#p2">About Me</a>
+                        </li>
+                        <li class="pull-right">
+                            <a href="#p3">Portfolio</a>
+                        </li>
+                        <li class="pull-right">
+                            <a href="#p4">Contact Me</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            div <div class="block text-center">
+                <h1 class="name">Ron Vargas</h1>
+                <h3 class="statement">You must be willing to do the things today others won't do to have the things you
+                    want.</h3>
+            </div>
+            <div class="btnList text-center">
+                <a id="profile-link" class="btn btn-default" href="https://github.com/vronney" target="_blank" rel="noopener noreferrer"><i
+                        class="fa fa-github fa-lg" id="githubIcon" aria-hidden="true"></i> GitHub</a>
+                <a id="profile-link" class="btn btn-default" href="https://www.linkedin.com/in/ronney-vargas/" target="_blank"
+                    rel="noopener noreferrer"><i class="fa fa-linkedin-square fa-lg" id="linkedinIcon" aria-hidden="true"></i>
+                    LinkedIn</a>
+                <a id="profile-link" class="btn btn-default" href="https://codepen.io/vronney/" target="_blank" rel="noopener noreferrer"><i
+                        class="fa fa-codepen fa-lg" id="codepenIcon" aria-hidden="true"></i> CodePen</a>
+            </div>
         </div>
     </div>
     <div class="pageTwo" id="p2">
@@ -49,39 +57,47 @@
             <div class="col-md-6 text-center">
                 <h1 class="name2">Ron Vargas</h1>
                 <p class="statement2">I'm a self-taught web designer and developer based in San Antonio, TX. I recently
-                    completed the Front-End Web Developer Nanodegree program through Udacity. My passion is to use technology based
-                    solutions, to help with real world challenges.<br><i>Languages and Frameworks</i>: JavaScript, HTML5, CSS3, jQuery,
+                    completed the Front-End Web Developer Nanodegree program through Udacity. My passion is to use
+                    technology based
+                    solutions, to help with real world challenges.<br><i>Languages and Frameworks</i>: JavaScript,
+                    HTML5, CSS3, jQuery,
                     Bootstrap3, React.js.<br><i>Tools and Expertise</i>: Git and Responsive Web Design.</p>
             </div>
             <div class="col-md-6 text-center">
-                <img src="image/me.jpg" id="me" class="img-thumbnail" alt="pick of me" />
+                <img src="https://media.licdn.com/dms/image/C4E03AQHtgbNVO_zJUA/profile-displayphoto-shrink_200_200/0?e=1549497600&v=beta&t=tCgED5EMhefILEPaEb_xQF0JbFvhZ88pFi0HKMyIdXI"
+                    id="me" class="img-thumbnail" alt="pick of me" />
             </div>
         </div>
     </div>
-    <div class="pageThree text-center" id="p3">
-        <div class="paddingTop">
-            <h1 class="name3">Next Level Portfolio</h1>
-            <h2 class="statement3">Best Above the Rest</h2>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="image/Arcade Game.PNG" id="ArcadeGame" class="img-thumbnail" alt="Arcade Game">
-                    <a id="projectName" href="https://github.com/vronney/Arcade-Game" target="_blank">
-                        <h2>Classic Frogger Clone</h2>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <img src="image/ravenousImage.PNG" id="ravenousImage" class="img-thumbnail" alt="Ravenous">
-                    <a id="projectName" href="https://vronney.github.io/ravenous-git/" target="_blank">
-                        <h2>Ravenous</h2>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <img src="image/react-coin-pic.PNG" id="reactCoinImage" class="img-thumbnail" alt="React-Coin">
-                    <a id="projectName" href="http://udemy-react-coin.herokuapp.com/" target="_blank">
-                        <h2>Cryptocurrency Ticker</h2>
-                    </a>
+    <div id="projects">
+        <div class="pageThree text-center" id="p3">
+            <div class="paddingTop">
+                <h1 class="name3">Next Level Portfolio</h1>
+                <h2 class="statement3">Best Above the Rest</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb_eqtMI0ydmQ7OjGGbq7E82CUPbcaDBQFp9R-aSiDolURHUoM"
+                            id="ArcadeGame" class="img-thumbnail" alt="Arcade Game">
+                        <a id="projectName" href="https://github.com/vronney/Arcade-Game" target="_blank">
+                            <h2 class="project-tile">Classic Frogger Clone</h2>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://news.codecademy.com/content/images/2018/02/Screen-Shot-2018-02-13-at-5.38.01-PM.png"
+                            id="ravenousImage" class="img-thumbnail" alt="Ravenous">
+                        <a id="projectName" href="https://vronney.github.io/ravenous-git/" target="_blank">
+                            <h2 class="project-tile">Ravenous</h2>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://github.com/zulhfreelancer/react-coin/raw/master/docs/images/demo.gif" id="reactCoinImage"
+                            class="img-thumbnail" alt="React-Coin">
+                        <a id="projectName" href="http://udemy-react-coin.herokuapp.com/" target="_blank">
+                            <h2 class="project-tile">Cryptocurrency Ticker</h2>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -92,10 +108,13 @@
                 <h1 class="name4">Contact Me <br><a id="email" href="mailto:ronneyvargas@gmail.com">RonneyVargas@gmail.com</a></h1>
             </div>
             <div class="col-md-4 contactBtn">
-                <a class="btn btn-default paddingBTN" href="https://github.com/vronney" target="_blank" rel="noopener noreferrer"> <i class="fa fa-github fa-lg" id="githubIcon"></i> GitHub</a>
-                <a class="btn btn-default paddingBTN" href="https://www.linkedin.com/in/ronney-vargas/" target="_blank" rel="noopener noreferrer"> <i class="fa fa-linkedin-square fa-lg"
-                id="linkedinIcon" aria-hidden="true"></i> LinkedIn</a>
-                <a class="btn btn-default paddingBTN" href="https://codepen.io/vronney/" target="_blank" rel="noopener noreferrer"> <i class="fa fa-codepen fa-lg" id="codepenIcon" aria-hidden="true"></i> CodePen</a>
+                <a class="btn btn-default paddingBTN" href="https://github.com/vronney" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-github fa-lg" id="githubIcon"></i> GitHub</a>
+                <a class="btn btn-default paddingBTN" href="https://www.linkedin.com/in/ronney-vargas/" target="_blank"
+                    rel="noopener noreferrer"> <i class="fa fa-linkedin-square fa-lg" id="linkedinIcon" aria-hidden="true"></i>
+                    LinkedIn</a>
+                <a class="btn btn-default paddingBTN" href="https://codepen.io/vronney/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-codepen fa-lg" id="codepenIcon" aria-hidden="true"></i> CodePen</a>
             </div>
         </div>
         <div class="footer">
